@@ -1,0 +1,182 @@
+{
+  "id": "f29da816-df7b-4a68-a0c0-b90ad8ff4d67",
+  "version": "2.0",
+  "name": "Voxy Login",
+  "url": "https://web-stage.voxy.com",
+  "tests": [{
+    "id": "0abba2b5-d3db-45c4-b051-5efb8a15dca4",
+    "name": "Login with email",
+    "commands": [{
+      "id": "bb7c6fe5-bd75-4a2f-bd76-402e51acbede",
+      "comment": "",
+      "command": "open",
+      "target": "/v2/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fa352213-762e-416d-8548-19cb77e85628",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2f32eba8-188b-4ecf-ab25-dd5c1ef63727",
+      "comment": "",
+      "command": "click",
+      "target": "id=login_form_email_input_field",
+      "targets": [
+        ["id=login_form_email_input_field", "id"],
+        ["name=email", "name"],
+        ["css=#login_form_email_input_field", "css:finder"],
+        ["xpath=//input[@id='login_form_email_input_field']", "xpath:attributes"],
+        ["xpath=//div[@id='voxy-login']/div/div/div[2]/div/form/div[2]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ed284ca9-cdde-4a7e-b958-336131916a04",
+      "comment": "",
+      "command": "type",
+      "target": "id=login_form_email_input_field",
+      "targets": [
+        ["id=login_form_email_input_field", "id"],
+        ["name=email", "name"],
+        ["css=#login_form_email_input_field", "css:finder"],
+        ["xpath=//input[@id='login_form_email_input_field']", "xpath:attributes"],
+        ["xpath=//div[@id='voxy-login']/div/div/div[2]/div/form/div[2]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "123"
+    }, {
+      "id": "b1518411-5d09-4877-8998-0803e98cdedc",
+      "comment": "",
+      "command": "click",
+      "target": "id=login_form_email_input_field",
+      "targets": [
+        ["id=login_form_email_input_field", "id"],
+        ["name=email", "name"],
+        ["css=#login_form_email_input_field", "css:finder"],
+        ["xpath=//input[@id='login_form_email_input_field']", "xpath:attributes"],
+        ["xpath=//div[@id='voxy-login']/div/div/div[2]/div/form/div[2]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "804edee3-7652-44b4-812e-8193cee86e43",
+      "comment": "",
+      "command": "type",
+      "target": "id=login_form_email_input_field",
+      "targets": [
+        ["id=login_form_email_input_field", "id"],
+        ["name=email", "name"],
+        ["css=#login_form_email_input_field", "css:finder"],
+        ["xpath=//input[@id='login_form_email_input_field']", "xpath:attributes"],
+        ["xpath=//div[@id='voxy-login']/div/div/div[2]/div/form/div[2]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "123@gmail.com"
+    }, {
+      "id": "c1fe4658-ddfc-494c-818e-af12666c4a89",
+      "comment": "",
+      "command": "click",
+      "target": "css=.voxy-button__text",
+      "targets": [
+        ["css=.voxy-button__text", "css:finder"],
+        ["xpath=//button[@id='login_form_submit_button']/span", "xpath:idRelative"],
+        ["xpath=//button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "904d6ae7-ad0e-4f7d-9c95-965718271c63",
+      "comment": "",
+      "command": "click",
+      "target": "css=.voxy-button_size_m > .voxy-button__text",
+      "targets": [
+        ["css=.voxy-button_size_m > .voxy-button__text", "css:finder"],
+        ["xpath=//div[@id='modals-container']/div/div/div[2]/div/div[2]/button/span", "xpath:idRelative"],
+        ["xpath=//div[2]/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "206ec295-f147-41dd-b546-b3a77b8238d6",
+      "comment": "",
+      "command": "click",
+      "target": "css=#login_form_field_phone .voxy-radio__box",
+      "targets": [
+        ["css=#login_form_field_phone .voxy-radio__box", "css:finder"],
+        ["xpath=//div[@id='login_form_field_phone']/label/i", "xpath:idRelative"],
+        ["xpath=//div[3]/div/label/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3097af63-5259-4e25-900b-5cffc3351a18",
+      "comment": "",
+      "command": "click",
+      "target": "css=.iti__selected-flag > .iti__flag",
+      "targets": [
+        ["css=.iti__selected-flag > .iti__flag", "css:finder"],
+        ["xpath=//div[@id='voxy-login']/div/div/div[2]/div/form/div[3]/div[2]/div/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "67927352-0528-40d8-9d50-3c71b0360401",
+      "comment": "",
+      "command": "click",
+      "target": "css=#iti-0__item-br > .iti__country-name",
+      "targets": [
+        ["css=#iti-0__item-br > .iti__country-name", "css:finder"],
+        ["xpath=//li[@id='iti-0__item-br']/span", "xpath:idRelative"],
+        ["xpath=//li[31]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Brazil (Brasil)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d4e458d3-6695-4bb5-bfdc-f3b1649d79ef",
+      "comment": "",
+      "command": "type",
+      "target": "name=phone",
+      "targets": [
+        ["name=phone", "name"],
+        ["css=.phone-input__control", "css:finder"],
+        ["xpath=//input[@name='phone']", "xpath:attributes"],
+        ["xpath=//div[@id='voxy-login']/div/div/div[2]/div/form/div[3]/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "98988889999"
+    }, {
+      "id": "d274fcac-d972-45cb-a33e-2cad5a4382c7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.voxy-button__text",
+      "targets": [
+        ["css=.voxy-button__text", "css:finder"],
+        ["xpath=//button[@id='login_form_submit_button']/span", "xpath:idRelative"],
+        ["xpath=//button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "edabf93e-ba92-4146-888b-455e1a2745bc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.voxy-button_size_m > .voxy-button__text",
+      "targets": [
+        ["css=.voxy-button_size_m > .voxy-button__text", "css:finder"],
+        ["xpath=//div[@id='modals-container']/div/div/div[2]/div/div[2]/button/span", "xpath:idRelative"],
+        ["xpath=//div[2]/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "8c316ac6-2cfc-4dd7-8f6e-f461a9fad605",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["0abba2b5-d3db-45c4-b051-5efb8a15dca4"]
+  }],
+  "urls": ["https://web-stage.voxy.com/"],
+  "plugins": []
+}
